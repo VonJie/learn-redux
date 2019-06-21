@@ -22,7 +22,7 @@ const VisibilityFilters = {
 	SHOW_ACTIVE: 'SHOW_ACTIVE'
 }
 
-module.exports = {
+export default {
 	addTodo,
 	setVisibilityFilter,
 	toggleTodo,

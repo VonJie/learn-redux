@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html --open -p 8888",
     "build": "parcel build index.html"
   },
   "devDependencies": {

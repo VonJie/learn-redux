@@ -6,7 +6,7 @@ const decrementCount = () => ({
 	type: 'DECREMENT'
 })
 
-module.exports = {
+export default {
 	incrementCount,
 	decrementCount
 }
