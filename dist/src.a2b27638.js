@@ -29145,6 +29145,12 @@ var todos = function todos() {
 var _default = todos;
 exports.default = _default;
 },{}],"src/redux/actions/todos.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 var nextTodoId = 0;
 
 var addTodo = function addTodo(text) {
@@ -29174,13 +29180,21 @@ var VisibilityFilters = {
   SHOW_COMPLETED: 'SHOW_COMPLETED',
   SHOW_ACTIVE: 'SHOW_ACTIVE'
 };
-module.exports = {
+var _default = {
   addTodo: addTodo,
   setVisibilityFilter: setVisibilityFilter,
   toggleTodo: toggleTodo,
   VisibilityFilters: VisibilityFilters
 };
+exports.default = _default;
 },{}],"src/redux/actions/counter.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
 var incrementCount = function incrementCount() {
   return {
     type: 'INCREMENT'
@@ -29193,10 +29207,11 @@ var decrementCount = function decrementCount() {
   };
 };
 
-module.exports = {
+var _default = {
   incrementCount: incrementCount,
   decrementCount: decrementCount
 };
+exports.default = _default;
 },{}],"src/redux/actions/index.js":[function(require,module,exports) {
 "use strict";
 
@@ -32516,7 +32531,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55962" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61599" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
